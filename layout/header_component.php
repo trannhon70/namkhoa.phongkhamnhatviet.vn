@@ -46,18 +46,16 @@
                     </a>
                 </li>
                 <li class="header__bottom-nav-ul-li header__bottom-border">
-                    <a class="" target="_blank" href="https://phongkhamdakhoanhatviet.vn/phong-kham-da-nhat-viet-phong-kham-da-khoa-uy-tin-tphcm-7.html">giới thiệu</a>
+                    <a class="" target="_blank" href="<?php echo $local ?>/phong-kham-da-nhat-viet-phong-kham-da-khoa-uy-tin-tphcm-7.html">giới thiệu</a>
                 </li>
                 <li class="header__bottom-nav-ul-li header__bottom-border header__bottom-positon">
-                    <a class="" href="<?php echo $local ?>">danh mục bệnh</a>
+                    <a class="" href="<?php echo $local ?>">bệnh nam khoa</a>
                     <div class="header__menu">
                         <div></div>
                         <nav>
                             <?php foreach ($getAllChiTietKhoaAndBenh as $value) : ?>
                                 <ul>
-                                    <li>
-                                        <span><?php echo $value['name']; ?></span>
-                                    </li>
+                                   
                                     <?php foreach ($value['danhSachBenh'] as $benh) : ?>
                                         <li class="header__menu-li">
                                             <a href="<?php echo $local ?>/danh-muc.php?khoa=<?php echo $value['slug'] ?>&benh=<?php echo $benh['slug'] ?>&page=1"><?php echo $benh['name']; ?></a>
@@ -119,14 +117,14 @@
                     <img src="<?php echo $local ?>/images/icons/icon_down.png" alt="">
                 </div>
                 <ul class="sidebar_mobile_li-option">
-                    <?php foreach ($getMenuMobile as $value) : ?>
+                    <?php foreach ($getAllChiTietKhoaAndBenh as $value) : ?>
                         <li class="sidebar_mobile_li-option-li">
                             <div data-option="<?php echo $value['id'] ?>" class="sidebar_mobile_li-option-li-div">
                                 <span><?php echo $value['name'] ?></span>
                                 <img src="<?php echo $local ?>/images/icons/add.webp" alt="">
                             </div>
                             <ul>
-                                <?php foreach ($value['dsBenh'] as $item) : ?>
+                                <?php foreach ($value['danhSachBenh'] as $item) : ?>
                                     <li>
                                         <a href="<?php echo $local ?>/danh-muc.php?khoa=<?php echo $value['slug'] ?>&benh=<?php echo $item['slug'] ?>&page=1"> <?php echo $item['name'] ?></a>
                                     </li>

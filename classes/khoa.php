@@ -28,7 +28,7 @@ class khoa
   public function getAllChiTietKhoaAndBenh()
   {
     // Step 1: Get all departments (khoa)
-    $queryKhoa = "SELECT * FROM `admin_khoa` WHERE 1";
+    $queryKhoa = "SELECT * FROM `admin_khoa` WHERE id = '1' LIMIT 1 ";
     $resultKhoa = $this->db->select($queryKhoa);
 
     $data = [];

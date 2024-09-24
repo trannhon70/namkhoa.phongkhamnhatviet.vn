@@ -163,11 +163,11 @@
 
 .header__menu>div{
     height: 21px;
-    width: 880px;
+    width: 614px;
 }
 
 .header__menu > nav{
-    min-width: 860px;
+    min-width: 614px;
     display: var(--display-flex);
     background-color: var(--background-color-01969A);
     padding: 10px;
@@ -177,13 +177,18 @@
 
 .header__menu > nav>ul {
     list-style: none;
-    width: 25%;
-    
+    width: 100%;
+    display: var(--display-flex);
+    align-items: var(--align-item-center);
+    justify-content: space-between;    
+    flex-wrap: wrap;
+    box-sizing: border-box;
 }
 
 .header__menu > nav>ul > li {
     border-bottom: 1px solid var(--color-00D8D8) ;
     padding: 10px 0px;
+    width: 49%;
 }
 
 .header__menu > nav>ul > li > span {

@@ -45,7 +45,7 @@ function formatPhoneNumber(phoneNumber) {
         if ( formData.hoten !== '' && formData.ngaysinh !== '' && formData.sdt !== '' && formData.trieuchung !== '') {
             if (formatPhoneNumber(formData.sdt)) {
                 var xhr = new XMLHttpRequest();
-                xhr.open("POST", "<?php echo $local ?>/classes/ajax/create_form_tu_van.php", true);
+                xhr.open("POST", "https://phongkhamdakhoanhatviet.vn/api/tu-van/create-form-tu-van.php", true);
                 xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
                 xhr.onreadystatechange = function() {
                     if (xhr.readyState === 4 && xhr.status === 200) {

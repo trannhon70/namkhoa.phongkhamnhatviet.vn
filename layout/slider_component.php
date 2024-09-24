@@ -81,7 +81,7 @@
                    return toastr.error("Mô tả triệu chứng không được vượt quá 200 ký tự");
                 }
                 var xhr = new XMLHttpRequest();
-                xhr.open("POST", "<?php echo $local ?>/classes/khach_hang_ajax.php", true);
+                xhr.open("POST", "https://phongkhamdakhoanhatviet.vn/api/khach-hang/create-khach-hang.php", true);
                 xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
                 xhr.onreadystatechange = function() {
                     if (xhr.readyState === 4 && xhr.status === 200) {

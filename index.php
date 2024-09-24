@@ -12,34 +12,12 @@
        <section id="we__bring" class="we__bring">
             <div class="we__bring-body">
                 <div class="we__bring-list">
-                    <div class="we__bring-item">
-                        <amp-img class="we__bring-item-logo" src="<?php echo $local ?>/images/icons/icon_nam_khoa2.webp" height="260px" width="125px" alt="..."></amp-img>
-                        <div class="we__bring-item-body">
-                            <h5>NAM KHOA</h5>
-                            <span>Chuyên khoa Nam khoa, Phòng khám Đa khoa Nhật Việt luôn được chú trọng phát triển, nhằm mang lại chất lượng và sự hài lòng nhất cho quý nam giới.</span>
-                        </div>
-                    </div>
-                    <div class="we__bring-item">
-                        <amp-img class="we__bring-item-logo" src="<?php echo $local ?>/images/icons/icon_da_lieu2.webp" height="260px" width="125px" alt="..."></amp-img>
-                        <div class="we__bring-item-body">
-                            <h5>DA LIỄU</h5>
-                            <span>Chuyên khoa Da liễu Phòng khám Đa khoa Nhật Việt là đơn vị đảm nhận chẩn đoán và điều trị các bệnh lý thuộc chuyên ngành Da liễu.</span>
-                        </div>
-                    </div>
-                    <div class="we__bring-item">
-                        <amp-img class="we__bring-item-logo" src="<?php echo $local ?>/images/icons/icon_benh_xh2.webp" height="260px" width="125px" alt="..."></amp-img>
-                        <div class="we__bring-item-body">
-                            <h5>BỆNH XÃ HỘI</h5>
-                            <span>Đa khoa Nhật Việt là một trong những địa chỉ thăm khám, xét nghiệm và điều trị bệnh xã hội uy tín tại TPHCM được người dân thành phố và khu vực tin chọn.</span>
-                        </div>
-                    </div>
-                    <div class="we__bring-item">
-                        <amp-img class="we__bring-item-logo" src="<?php echo $local ?>/images/icons/icon_hm_tt2.webp" height="260px" width="125px" alt="..."></amp-img>
-                        <div class="we__bring-item-body">
-                            <h5>HẬU MÔN - TRỰC TRÀNG</h5>
-                            <span>Khoa Hậu môn – Trực tràng Phòng khám Đa khoa Nhật Việt chuyên cung cấp dịch vụ khám chữa toàn diện các bệnh lý hậu môn – trực tràng uy tín.</span>
-                        </div>
-                    </div>
+                   <h5>
+                        PHƯƠNG CHÂM PHÒNG KHÁM
+                   </h5>
+                   <span>
+                   Phòng khám bệnh nam khoa JV Nhật Việt chuyên khám và hỗ trợ điều trị các bệnh nam khoa thường gặp như rối loạn chức năng sinh dục, bao quy đầu, tinh hoàn, tuyến tiền liệt, tiết niệu,… Ngày càng nhiều nam giới hiện nay mắc các bệnh nam khoa, nguyên nhân chủ yếu là do lối sống tình dục không an toàn, môi trường bị ô nhiễm, sử dụng chất kích thích và thiết bị điện tử thường xuyên,...Chính vì vậy nam giới cần chủ động đi khám nam khoa tại các phòng khám bệnh nam khoa uy tín để nhanh chóng phát hiện và hỗ trợ điều trị sớm.
+                   </span>
                 </div>
                 <hr>
                 <div class="we__bring-row">
@@ -420,8 +398,11 @@
                 if (formatPhoneNumber(sdt)) {
 
                     let baseUrl = window.location.href;
+                    console.log(sdt, 'sdt');
+                    console.log(baseUrl, 'baseUrl');
+                    
                     var xhr = new XMLHttpRequest();
-                    xhr.open("POST", "classes/tu_van_ajax.php", true);
+                    xhr.open("POST", "https://phongkhamdakhoanhatviet.vn/api/tu-van/create-phone-tu-van.php", true);
                     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
                     xhr.onreadystatechange = function() {
                         if (xhr.readyState === 4 && xhr.status === 200) {

@@ -161,7 +161,7 @@ body {
   @media only screen and (max-width: 999px) {
     .we__bring{
         box-sizing: var(--box-sizing-border-box);
-        height: 1380px !important;
+        height: 650px !important;
     }
     .we__bring-body{
         box-sizing: var(--box-sizing-border-box);

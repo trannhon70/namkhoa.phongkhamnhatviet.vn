@@ -4,20 +4,20 @@
 
 <body>
     <?php include 'layout/header_component.php' ?>
-    
-   <main>
+
+    <main>
         <?php include 'mobile/appointment_mobile.php' ?>
         <?php include 'layout/slider_component.php' ?>
 
-       <section id="we__bring" class="we__bring">
+        <section id="we__bring" class="we__bring">
             <div class="we__bring-body">
                 <div class="we__bring-list">
-                   <h5>
+                    <h5>
                         PHƯƠNG CHÂM PHÒNG KHÁM
-                   </h5>
-                   <span>
-                   Phòng khám bệnh nam khoa JV Nhật Việt chuyên khám và hỗ trợ điều trị các bệnh nam khoa thường gặp như rối loạn chức năng sinh dục, bao quy đầu, tinh hoàn, tuyến tiền liệt, tiết niệu,… Ngày càng nhiều nam giới hiện nay mắc các bệnh nam khoa, nguyên nhân chủ yếu là do lối sống tình dục không an toàn, môi trường bị ô nhiễm, sử dụng chất kích thích và thiết bị điện tử thường xuyên,...Chính vì vậy nam giới cần chủ động đi khám nam khoa tại các phòng khám bệnh nam khoa uy tín để nhanh chóng phát hiện và hỗ trợ điều trị sớm.
-                   </span>
+                    </h5>
+                    <span>
+                        Phòng khám bệnh nam khoa JV Nhật Việt chuyên khám và hỗ trợ điều trị các bệnh nam khoa thường gặp như rối loạn chức năng sinh dục, bao quy đầu, tinh hoàn, tuyến tiền liệt, tiết niệu,… Ngày càng nhiều nam giới hiện nay mắc các bệnh nam khoa, nguyên nhân chủ yếu là do lối sống tình dục không an toàn, môi trường bị ô nhiễm, sử dụng chất kích thích và thiết bị điện tử thường xuyên,...Chính vì vậy nam giới cần chủ động đi khám nam khoa tại các phòng khám bệnh nam khoa uy tín để nhanh chóng phát hiện và hỗ trợ điều trị sớm.
+                    </span>
                 </div>
                 <hr>
                 <div class="we__bring-row">
@@ -38,10 +38,10 @@
                 </div>
             </div>
         </section>
-          <section id="experienced" class="experienced">
+        <section id="experienced" class="experienced">
             <div class="experienced__row">
                 <div class="experienced__row-left">
-                  <div class="experienced__row-left-title">
+                    <div class="experienced__row-left-title">
                         VỀ CHÚNG TÔI
                     </div>
                     <div class="experienced__row-left-title1">
@@ -50,15 +50,15 @@
                     <div class="experienced__row-left-text">
                         Y, Bác sĩ của phòng khám đều là những nhân tố giỏi. Họ đã từng công tác tại nhiều bệnh viện lớn trong cả nước. Mỗi chuyên gia đảm nhận một chuyên khoa riêng biệt. Chính điều này sẽ giúp quá trình khám chữa bệnh đạt kết quả tối ưu.
                     </div>
-                     <div class="experienced__row-left-center">
+                    <div class="experienced__row-left-center">
                         <button>CHUYÊN NGHIỆP</button>
                         <button>TẬN TÂM</button>
                         <button>KINH NGHIỆM</button>
                     </div>
-                    <div class="experienced__row-left-img" >
+                    <div class="experienced__row-left-img">
                         <img width="100%" height="auto" src="<?php echo $local ?>/images/logo/vong-tron.webp" alt="...">
-                    </div> 
-                   <div class="experienced__row-left-bottom">
+                    </div>
+                    <div class="experienced__row-left-bottom">
                         <div class="experienced__row-left-bottom-item">
                             <div>
                                 <amp-img class="experienced__row-left-bottom-item-img" src="<?php echo $local ?>/images/icons/icon_check.webp" height="33px" width="40px" alt="..."></amp-img>
@@ -72,7 +72,7 @@
                             <span>Chuyên môn cao, tâm huyết lớn</span>
                         </div>
 
-                    </div> 
+                    </div>
                     <div class="experienced__row-left-bottom">
                         <div class="experienced__row-left-bottom-item">
                             <div>
@@ -125,29 +125,29 @@
                 </div>
             </div>
 
-           <div class="experienced__bottom-mobile"  >
-                <span class="experienced__bottom-mobile-title" >ĐỘI NGŨ BÁC SĨ GIỎI</span>       
-                <div class="experienced__bottom-mobile-card activeexperienced" >
+            <div class="experienced__bottom-mobile">
+                <span class="experienced__bottom-mobile-title">ĐỘI NGŨ BÁC SĨ GIỎI</span>
+                <div class="experienced__bottom-mobile-card activeexperienced">
                     <img width="56%" height="auto" src="<?php echo $local ?>/images/users/user_1.webp" alt="...">
                     <div class="experienced__bottom-mobile-text">Lê Bản Bình</div>
                     <div class="experienced__bottom-mobile-text1">CK: Ngoại Khoa</div>
                 </div>
-                <div class="experienced__bottom-mobile-card" >
+                <div class="experienced__bottom-mobile-card">
                     <img width="56%" height="auto" src="<?php echo $local ?>/images/users/user_2.webp" alt="...">
                     <div class="experienced__bottom-mobile-text">Nguyễn Thị Tuyết</div>
                     <div class="experienced__bottom-mobile-text1">CK: Siêu âm</div>
                 </div>
-                <div class="experienced__bottom-mobile-card" >
+                <div class="experienced__bottom-mobile-card">
                     <img width="56%" height="auto" src="<?php echo $local ?>/images/users/user_3.webp" alt="...">
                     <div class="experienced__bottom-mobile-text"> Ngô minh tài</div>
                     <div class="experienced__bottom-mobile-text1">CK: Xét nghiệm</div>
                 </div>
-                <div class="experienced__bottom-mobile-card" >
+                <div class="experienced__bottom-mobile-card">
                     <img width="56%" height="auto" src="<?php echo $local ?>/images/users/user_4.webp" alt="...">
                     <div class="experienced__bottom-mobile-text"> Trần gia phú</div>
                     <div class="experienced__bottom-mobile-text1">CK: Phục hồi chức năng</div>
                 </div>
-           </div>
+            </div>
             <div class="index-experienced">
                 <div class="experienced-item experienced-item-0 activeexperienced"></div>
                 <div class="experienced-item experienced-item-1 "></div>
@@ -155,8 +155,8 @@
                 <div class="experienced-item experienced-item-3"></div>
             </div>
 
-       </section>
-       <section class="advise" id="advise">
+        </section>
+        <section class="advise" id="advise">
             <div class="advise__row ">
                 <div class="advise__row-left ">nhận tư vấn sức khỏe từ
                     các chuyên gia của chúng tôi</div>
@@ -174,7 +174,7 @@
                 </div>
                 <div class="dominance__container-row">
                     <div class="dominance__container-row-col ">
-                    <amp-img class="dominance__container-row-col-img" src="<?php echo $local ?>/images/icons/icon_check1.webp" height="35px" width="35px" alt="..."></amp-img>
+                        <amp-img class="dominance__container-row-col-img" src="<?php echo $local ?>/images/icons/icon_check1.webp" height="35px" width="35px" alt="..."></amp-img>
                         <span>Đội ngũ bác sĩ chuyên môn cao</span>
                     </div>
                     <div class="dominance__container-row-col ">
@@ -224,7 +224,7 @@
             </div>
         </section>
 
-         <section class="procedure" id="procedure">
+        <section class="procedure" id="procedure">
             <div class=" procedure__container">
                 <div class="procedure__container-title">
                     quy trình
@@ -305,23 +305,23 @@
                             <img src="images/users/user_khai.webp" alt="">
                             <div class="feedback__container-row-card-top-right">
                                 <div class="feedback__container-row-card-top-right-title">
-                                Minh Hải
+                                    Minh Hải
                                 </div>
                                 <div class="feedback__container-row-card-top-right-text">
-                                Kiến trúc sư công trình - Bà Rịa Vũng Tàu
+                                    Kiến trúc sư công trình - Bà Rịa Vũng Tàu
                                 </div>
                                 <hr>
                                 <div class="feedback__container-row-card-top-right-content">
                                     <img src="images/icons/icon_start.webp" alt="">
                                     <div>
-                                    3 ngày trước
+                                        3 ngày trước
                                     </div>
                                     <button>Mới</button>
                                 </div>
                             </div>
                         </div>
                         <div class="feedback__container-row-card-bottom">
-                        “Theo Hải thì chất lượng phòng khám là khỏi chê, đội ngũ nhân viên y, bác sĩ rất thân thiện và nhiệt tình. Thời gian trả kết quả cũng rất nhanh, cái chính là an toàn và bảo mật. Đây là điều mà Hải cảm thấy hài lòng nhất, xin cám ơn Đa khoa Nhật Việt!”
+                            “Theo Hải thì chất lượng phòng khám là khỏi chê, đội ngũ nhân viên y, bác sĩ rất thân thiện và nhiệt tình. Thời gian trả kết quả cũng rất nhanh, cái chính là an toàn và bảo mật. Đây là điều mà Hải cảm thấy hài lòng nhất, xin cám ơn Đa khoa Nhật Việt!”
                         </div>
                     </div>
 
@@ -330,22 +330,22 @@
                             <img src="images/users/user_hieu.webp" alt="">
                             <div class="feedback__container-row-card-top-right">
                                 <div class="feedback__container-row-card-top-right-title">
-                                Trung Hiếu
+                                    Trung Hiếu
                                 </div>
                                 <div class="feedback__container-row-card-top-right-text">
-                                Hướng dẫn viên du lịch - Bình Dương
+                                    Hướng dẫn viên du lịch - Bình Dương
                                 </div>
                                 <hr>
                                 <div class="feedback__container-row-card-top-right-content">
                                     <img src="images/icons/icon_start.webp" alt="">
                                     <div>
-                                    2 tuần trước
+                                        2 tuần trước
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="feedback__container-row-card-bottom">
-                        “Công việc của Hiếu khá bận nên thời gian rảnh rất ít. Do đó Hiếu đã chọn thăm khám nam khoa tại Đa Khoa Nhật Việt qua Đặt hẹn Online.”
+                            “Công việc của Hiếu khá bận nên thời gian rảnh rất ít. Do đó Hiếu đã chọn thăm khám nam khoa tại Đa Khoa Nhật Việt qua Đặt hẹn Online.”
                         </div>
                     </div>
                 </div>
@@ -359,28 +359,26 @@
     </main>
 
     <script>
-    const feedbacks = document.querySelectorAll('.feedback__container-row-card');
-    const listItems = document.querySelectorAll('.feedback-item');
-    let currentIndex = 0;
+        const feedbacks = document.querySelectorAll('.feedback__container-row-card');
+        const listItems = document.querySelectorAll('.feedback-item');
+        let currentIndex = 0;
 
-    const showFeedback = (index) => {
-        feedbacks.forEach((feedback, idx) => {
-            feedback.classList.toggle('activeFeedback', idx === index);
-        });
-        listItems.forEach((listItem, idx) => {
-            listItem.classList.toggle('activeFeedback', idx === index);
-        });
-    };
+        const showFeedback = (index) => {
+            feedbacks.forEach((feedback, idx) => {
+                feedback.classList.toggle('activeFeedback', idx === index);
+            });
+            listItems.forEach((listItem, idx) => {
+                listItem.classList.toggle('activeFeedback', idx === index);
+            });
+        };
 
-    const handleChangeSlideFeedback = () => {
-        currentIndex = (currentIndex + 1) % feedbacks.length;
-        showFeedback(currentIndex);
-    };
-    showFeedback(currentIndex); // Initialize the first feedback as active
-    setInterval(handleChangeSlideFeedback, 4000);
-
-   
-</script>
+        const handleChangeSlideFeedback = () => {
+            currentIndex = (currentIndex + 1) % feedbacks.length;
+            showFeedback(currentIndex);
+        };
+        showFeedback(currentIndex); // Initialize the first feedback as active
+        setInterval(handleChangeSlideFeedback, 4000);
+    </script>
 
     <script>
         function formatPhoneNumber(phoneNumber) {
@@ -396,14 +394,11 @@
             let sdt = document.getElementById('sdt_pc').value;
             if (sdt.trim() !== '') {
                 if (formatPhoneNumber(sdt)) {
-
                     let baseUrl = window.location.href;
-                    console.log(sdt, 'sdt');
-                    console.log(baseUrl, 'baseUrl');
-                    
+
                     var xhr = new XMLHttpRequest();
                     xhr.open("POST", "https://phongkhamdakhoanhatviet.vn/api/tu-van/create-phone-tu-van.php", true);
-                    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+                    xhr.setRequestHeader("Content-Type", "application/json"); // Đổi sang application/json
                     xhr.onreadystatechange = function() {
                         if (xhr.readyState === 4 && xhr.status === 200) {
                             try {
@@ -415,21 +410,22 @@
                                     toastr.error(response.message);
                                 }
                             } catch (e) {
-
                                 toastr.error("Đã xảy ra lỗi trong quá trình xử lý phản hồi từ máy chủ.");
                             }
-
                         }
                     };
 
-                    xhr.send("sdt=" + sdt + "&url=" + encodeURIComponent(baseUrl));
+                    let payload = {
+                        sdt: sdt,
+                        url: baseUrl
+                    };
+
+                    xhr.send(JSON.stringify(payload)); // Gửi dữ liệu dưới dạng JSON
                 } else {
                     toastr.error("Số điện thoại không hợp lệ!");
                 }
-
             } else {
                 toastr.error("Số điện thoại không được bỏ trống");
-
             }
         }
     </script>

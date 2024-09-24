@@ -345,6 +345,30 @@ $query = "SELECT COUNT(*) AS total FROM admin_baiviet WHERE id_benh = ' $id_benh
     $result = $this->db->select($query);
     return $result;
   }
+
+  public function getPagingBaiVietTheoBenh($id, $limit, $offset) {
+    $id = mysqli_real_escape_string($this->db->link, $id);
+    $query = "SELECT * FROM admin_benh WHERE slug = '$id' LIMIT 1 ";
+    $result = $this->db->select($query);
+    $data = [];
+    if ($result) {
+      while ($rowBenh = $result->fetch_assoc()) {
+        $idBenh = $rowBenh['id'];
+        $query_baiviet = "SELECT * FROM admin_baiviet WHERE id_benh = $idBenh ORDER BY id DESC LIMIT $limit OFFSET $offset";
+        $result_baiviet = $this->db->select($query_baiviet);
+        $dataBaiViet = [];
+        if ($result_baiviet) {
+            while ($row = $result_baiviet->fetch_assoc()) {
+                $dataBaiViet[] = $row;
+            }
+        }
+
+        $rowBenh['danhSachBaiViet'] = $dataBaiViet;
+                $data[] = $rowBenh;
+      }
+    } 
+    return $data;
+  }
 }
 
 ?>

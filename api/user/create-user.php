@@ -60,7 +60,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($data)) {
         $result = $db->insert($sql);
 
         if ($result) {
-            echo json_encode(['status' => 'success', 'message' => 'Tài khoản đã được tạo thành công ở trang https://namkhoa.phongkhamdakhoanhatviet.vn']);
+            echo json_encode(['status' => 'success', 'message' => 'Tài khoản đã được tạo thành công ở trang https://namkhoa.phongkhamnhatviet.vn']);
         } else {
             echo json_encode(['status' => 'error', 'message' => 'Lỗi khi lưu dữ liệu']);
         }

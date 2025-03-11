@@ -10,8 +10,8 @@ if (isset($_GET['action']) && $_GET['action'] == 'logout') {
     Session::destroy();
 }
 
-$local = 'http://localhost/namkhoa.phongkhamdakhoanhatviet.vn';
-// $local = 'https://namkhoa.phongkhamdakhoanhatviet.vn';
+// $local = 'http://localhost/namkhoa.phongkhamnhatviet.vn';
+$local = 'https://namkhoa.phongkhamnhatviet.vn';
 ?>
 <?php
 function getImagesFromFolder($folderPath) {

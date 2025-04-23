@@ -29,7 +29,7 @@
                             CHÚNG TÔI MANG ĐẾN
                         </div>
                         <div class="we__bring-row-right-text">
-                            Đa Khoa Nhật Việt luôn nỗ lực để xây dựng một thương hiệu chăm sóc sức khỏe với hàm lượng tri thức, khoa học và công nghệ ở mức cao. Mỗi dịch vụ y tế đều hướng tới tính tiện ích, hiệu quả, có ý nghĩa với cuộc sống và sức khỏe con người.
+                            Phòng khám Nhật Việt luôn nỗ lực để xây dựng một thương hiệu chăm sóc sức khỏe với hàm lượng tri thức, khoa học và công nghệ ở mức cao. Mỗi dịch vụ y tế đều hướng tới tính tiện ích, hiệu quả, có ý nghĩa với cuộc sống và sức khỏe con người.
                         </div>
                         <button class="we__bring-row-right-button">
                             XEM TẤT CẢ CÁC DỊCH VỤ CỦA CHÚNG TÔI
@@ -296,7 +296,7 @@
                             </div>
                         </div>
                         <div class="feedback__container-row-card-bottom">
-                            “Mình bị viêm da cũng khá nặng, đã chữa trị nhiều nơi nhưng không khỏi. Mình biết đến Phòng khám Đa khoa Nhật Việt qua một người bạn. Khi mình đến khám, bác sĩ và nhân viên phòng khám hướng dẫn mình rất chi tiết trong từng hạng mục.”
+                            “Mình bị viêm da cũng khá nặng, đã chữa trị nhiều nơi nhưng không khỏi. Mình biết đến Phòng khám Nhật Việt qua một người bạn. Khi mình đến khám, bác sĩ và nhân viên phòng khám hướng dẫn mình rất chi tiết trong từng hạng mục.”
                         </div>
                     </div>
 
@@ -321,7 +321,7 @@
                             </div>
                         </div>
                         <div class="feedback__container-row-card-bottom">
-                            “Theo Hải thì chất lượng phòng khám là khỏi chê, đội ngũ nhân viên y, bác sĩ rất thân thiện và nhiệt tình. Thời gian trả kết quả cũng rất nhanh, cái chính là an toàn và bảo mật. Đây là điều mà Hải cảm thấy hài lòng nhất, xin cám ơn Đa khoa Nhật Việt!”
+                            “Theo Hải thì chất lượng phòng khám là khỏi chê, đội ngũ nhân viên y, bác sĩ rất thân thiện và nhiệt tình. Thời gian trả kết quả cũng rất nhanh, cái chính là an toàn và bảo mật. Đây là điều mà Hải cảm thấy hài lòng nhất, xin cám ơn Phòng khám Nhật Việt!”
                         </div>
                     </div>
 
@@ -345,7 +345,7 @@
                             </div>
                         </div>
                         <div class="feedback__container-row-card-bottom">
-                            “Công việc của Hiếu khá bận nên thời gian rảnh rất ít. Do đó Hiếu đã chọn thăm khám nam khoa tại Đa Khoa Nhật Việt qua Đặt hẹn Online.”
+                            “Công việc của Hiếu khá bận nên thời gian rảnh rất ít. Do đó Hiếu đã chọn thăm khám nam khoa tại Phòng khám Nhật Việt qua Đặt hẹn Online.”
                         </div>
                     </div>
                 </div>

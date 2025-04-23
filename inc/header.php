@@ -38,8 +38,8 @@ $local ='https://namkhoa.phongkhamnhatviet.vn'
 <head>
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Phòng khám đa khoa chuyên điều trị bệnh nam khoa, bệnh xã hội, da liễu, hậu môn - trực tràng uy tính tại thành phố Hồ Chí Minh">
-    <title>Phòng khám đa khoa</title>
+    <meta name="description" content="Phòng khám chuyên điều trị bệnh nam khoa, bệnh xã hội, da liễu, hậu môn - trực tràng uy tính tại thành phố Hồ Chí Minh">
+    <title>Phòng khám</title>
     <link rel="icon" href="<?php echo $local ?>/images/icons/icon_logo.png" type="image/x-icon">
     <link rel="preload" href="<?php echo $local ?>/css/index.min.css" as="style" onload='this.onload=null,this.rel="stylesheet"'>
     <link rel="preload" href="<?php echo $local ?>/css/toastr.min.css" as="style" onload='this.onload=null,this.rel="stylesheet"'>

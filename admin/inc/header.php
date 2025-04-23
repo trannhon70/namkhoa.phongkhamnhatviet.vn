@@ -91,7 +91,7 @@ header("Cache-Control: max-age=2592000");
         <aside id="sidebar">
             <div class="d-flex mt-3" style="margin-left: 24px;">
                 <div class="sidebar-logo">
-                    <a href="<?php echo $local ?>/admin">PK Đa Khoa</a>
+                    <a href="<?php echo $local ?>/admin">Phòng khám Nhật Việt</a>
                 </div>
             </div>
             <ul class="sidebar-nav">

@@ -1,17 +1,24 @@
 <header id="header_pc" class="header">
     <div class="header__top">
         <div class="header__top-left">
-            <img class="header__top-left-logo" src="<?php echo $local ?>/images/logo/logo2.webp" height="70px" width="250px" alt="...">
+            <img class="header__top-left-logo" src="<?php echo $local ?>/images/logo/logo2.webp" height="70px"
+                width="250px" alt="...">
         </div>
         <div class="header__top-list">
             <div class="header__top-list-item">
-                <div style="width: 35px;height: 35px;"> <amp-img class="header__top-list-item-icon" src="<?php echo $local ?>/images/icons/icon_phone.webp" height="35px" width="35px" alt="..."></amp-img></div>
+                <div style="width: 35px;height: 35px;">
+                    <amp-img class="header__top-list-item-icon" src="<?php echo $local ?>/images/icons/icon_phone.webp"
+                        height="35px" width="35px" alt="..."></amp-img>
+                </div>
                 <div class="header__top-list-item-text">Đường dây nóng <br>
                     028-7776-7777
                 </div>
             </div>
             <div class="header__top-list-item">
-                <div style="width: 35px;height: 35px;"><amp-img class="header__top-list-item-icon" src="<?php echo $local ?>/images/icons/icon_user.webp" height="35px" width="35px" alt="..."></amp-img></div>
+                <div style="width: 35px;height: 35px;">
+                    <amp-img class="header__top-list-item-icon" src="<?php echo $local ?>/images/icons/icon_user.webp"
+                        height="35px" width="35px" alt="..."></amp-img>
+                </div>
                 <div class="header__top-list-item-center">
                     <div class="header__top-list-item-center-top">Giờ làm việc
                         <br>
@@ -24,7 +31,9 @@
             </div>
             <div class="header__top-list-item">
                 <div style="width: 35px;height: 35px;">
-                    <amp-img class="header__top-list-item-icon" src="<?php echo $local ?>/images/icons/icon_location.webp" height="35px" width="35px" alt="..."></amp-img>
+                    <amp-img class="header__top-list-item-icon"
+                        src="<?php echo $local ?>/images/icons/icon_location.webp" height="35px" width="35px" alt="...">
+                    </amp-img>
                 </div>
                 <div class="header__top-list-item-center">
                     <div class="header__top-list-item-center-top">Địa chỉ
@@ -42,11 +51,15 @@
             <ul class="header__bottom-nav-ul">
                 <li>
                     <a href="<?php echo $local ?>">
-                        <amp-img class="header__top-list-item-icon" src="<?php echo $local ?>/images/icons/icon_home.webp" height="35px" width="35px" alt="..."></amp-img>
+                        <amp-img class="header__top-list-item-icon"
+                            src="<?php echo $local ?>/images/icons/icon_home.webp" height="35px" width="35px" alt="...">
+                        </amp-img>
                     </a>
                 </li>
                 <li class="header__bottom-nav-ul-li header__bottom-border">
-                    <a class="" target="_blank" href="<?php echo $local ?>/phong-kham-da-nhat-viet-phong-kham-da-khoa-uy-tin-tphcm-7.html">giới thiệu</a>
+                    <a class="" target="_blank"
+                        href="<?php echo $local ?>/phong-kham-da-nhat-viet-phong-kham-da-khoa-uy-tin-tphcm-7.html">giới
+                        thiệu</a>
                 </li>
                 <li class="header__bottom-nav-ul-li header__bottom-border header__bottom-positon">
                     <a class="" href="<?php echo $local ?>">bệnh nam khoa</a>
@@ -80,14 +93,16 @@
 <header id="header__mobile" class="header__mobile">
     <div class="header__mobile-top">
         <div class="header__mobile-top-left">
-            <img onclick="showSidebar()" class="header__mobile-top-left-icon" src="<?php echo $local ?>/images/icons/menu_white.webp" height="25px" width="25px" alt="..."></img>
-            <img onclick="hidenSidebar()" class="header__mobile-top-left-icon-close" src="<?php echo $local ?>/images/icons/icon_close.webp" height="25px" width="25px" alt="..."></img>
+            <img onclick="showSidebar()" class="header__mobile-top-left-icon"
+                src="<?php echo $local ?>/images/icons/menu_white.webp" height="25px" width="25px" alt="..."></img>
+            <img onclick="hidenSidebar()" class="header__mobile-top-left-icon-close"
+                src="<?php echo $local ?>/images/icons/icon_close.webp" height="25px" width="25px" alt="..."></img>
         </div>
         <div class="header__mobile-top-center">
-            <input id="sdt_mobile" type="number" placeholder="Nhập số điện thoại">
+            phòng khám nam khoa
         </div>
         <div class="header__mobile-top-left">
-            <button onclick="onClickCreatePhone()">Xác Nhận</button>
+
         </div>
     </div>
     <div class="header__mobile-row">
@@ -95,7 +110,8 @@
             <img width="100%" height="40px" src="<?php echo $local ?>/images/logo_mobile/logo_mobile.webp" alt="">
         </a>
         <a href="tel:+02877767777" class="header__mobile-row-right">
-            <amp-img class="header__mobile-row-right-icon" src="<?php echo $local ?>/images/icons/icon_phone_no.webp" height="30px" width="25px" alt="..."></amp-img>
+            <amp-img class="header__mobile-row-right-icon" src="<?php echo $local ?>/images/icons/icon_phone_no.webp"
+                height="30px" width="25px" alt="..."></amp-img>
             <div class="header__mobile-row-right-hotline">
                 <div>TƯ VẤN TRỰC TUYẾN</div>
                 <span>028-7776-7777</span>
@@ -109,7 +125,8 @@
     <nav>
         <ul class="sidebar_mobile">
             <li>
-                <a href="<?php echo $local ?>/phong-kham-da-nhat-viet-phong-kham-da-khoa-uy-tin-tphcm-7.html">giới thiệu</a>
+                <a href="<?php echo $local ?>/phong-kham-da-nhat-viet-phong-kham-da-khoa-uy-tin-tphcm-7.html">giới
+                    thiệu</a>
             </li>
             <li class="sidebar_mobile_li">
                 <div onclick="showShelectOption()">
@@ -183,7 +200,4 @@
             });
         });
     });
-
-    
 </script>
-

@@ -30,19 +30,23 @@ header("Pragma: no-cache");
 header("Expires: Sat, 26 Jul 1997 05:00:00 GMT");
 header("Cache-Control: max-age=2592000");
 
-// $local = 'http://localhost/_nhatvietnew/namkhoa.phongkhamnhatviet.vn';
-$local ='https://namkhoa.phongkhamnhatviet.vn'
+$local = 'http://localhost/_nhatvietnew/namkhoa.phongkhamnhatviet.vn';
+// $local ='https://namkhoa.phongkhamnhatviet.vn'
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Phòng khám chuyên điều trị bệnh nam khoa, bệnh xã hội, da liễu, hậu môn - trực tràng uy tính tại thành phố Hồ Chí Minh">
+    <meta name="description"
+        content="Phòng khám chuyên điều trị bệnh nam khoa, bệnh xã hội, da liễu, hậu môn - trực tràng uy tính tại thành phố Hồ Chí Minh">
     <title>Phòng khám</title>
     <link rel="icon" href="<?php echo $local ?>/images/icons/icon_logo.png" type="image/x-icon">
-    <link rel="preload" href="<?php echo $local ?>/css/index.min.css" as="style" onload='this.onload=null,this.rel="stylesheet"'>
-    <link rel="preload" href="<?php echo $local ?>/css/toastr.min.css" as="style" onload='this.onload=null,this.rel="stylesheet"'>
+    <link rel="preload" href="<?php echo $local ?>/css/index.min.css" as="style"
+        onload='this.onload=null,this.rel="stylesheet"'>
+    <link rel="preload" href="<?php echo $local ?>/css/toastr.min.css" as="style"
+        onload='this.onload=null,this.rel="stylesheet"'>
 
     <style amp-boilerplate>
         body {
@@ -126,8 +130,7 @@ $local ='https://namkhoa.phongkhamnhatviet.vn'
 
                 // Thêm stylesheet mới dựa trên kích thước cửa sổ
                 if (window.innerWidth < 1000) {
-                    const mobileLink = [
-                        {
+                    const mobileLink = [{
                             href: '<?php echo $local ?>/css/header-mobile.min.css',
                             id: 'mobile-0'
                         },
@@ -153,8 +156,7 @@ $local ='https://namkhoa.phongkhamnhatviet.vn'
                     });
 
                 } else {
-                    const desktopLink = [
-                        {
+                    const desktopLink = [{
                             href: '<?php echo $local ?>/css/header.min.css',
                             id: 'desktop-0'
                         },
@@ -183,13 +185,13 @@ $local ='https://namkhoa.phongkhamnhatviet.vn'
 
             updateHeaderStylesheet();
 
-          
 
-            
+
+
             window.addEventListener('resize', () => {
                 console.log('Window resized to:', window.innerWidth);
                 updateHeaderStylesheet();
-              
+
             });
         });
     </script>

@@ -33,19 +33,15 @@ $get_post_detail = $post->getBaiViet_bySlug($filename);
 
                     </ul>
                 <?php endforeach; ?>
-                <div class="danhmuc__left-div" >
+                <div class="danhmuc__left-div">
 
-                
-                <div class="danhmuc__left-form">
-                    <?php 
-                        include_once 'layout/advise_component.php'
-                    ?>
-                </div>
-                <div class="danhmuc__left-banner">
-                    <amp-img class="danhmuc__left-banner-img"
-                        src="<?php echo $local ?>/images/banner/banner_khuyen_mai.webp" height="380px" width="250px"
-                        alt="..."></amp-img>
-                </div>
+
+
+                    <div class="danhmuc__left-banner">
+                        <amp-img class="danhmuc__left-banner-img"
+                            src="<?php echo $local ?>/images/banner/banner_khuyen_mai.webp" height="380px" width="250px"
+                            alt="..."></amp-img>
+                    </div>
                 </div>
 
             </div>
@@ -60,17 +56,19 @@ $get_post_detail = $post->getBaiViet_bySlug($filename);
                 <?php } ?>
                 <div class="danhmuc__right-title"><?php echo $get_post_detail['tieu_de'] ?></div>
                 <div id="bg_mobile_km">
-                    <img width="100%" height="auto" src="<?php echo $local ?>/images/logo_mobile/bg_mobile_km.gif" alt="...">
+                    <img width="100%" height="auto" src="<?php echo $local ?>/images/logo_mobile/bg_mobile_km.gif"
+                        alt="...">
                 </div>
                 <hr>
-                
-                <div class="danhmuc__right-content" id="bai-viet"> <?php echo htmlspecialchars_decode($get_post_detail['content']); ?> </div>
+
+                <div class="danhmuc__right-content" id="bai-viet">
+                    <?php echo htmlspecialchars_decode($get_post_detail['content']); ?> </div>
                 <div class="bai-viet-footer">Nội dung bài viết cung cấp nhằm mục đích tham khảo thêm kiến thức y tế,
-                            một số nội dung có thể không thuộc nghiệp vụ của phòng khám chúng tôi, Hiệu quả của việc hỗ trợ
-                            điều trị phụ thuộc vào cơ địa của mỗi người. Cần biết thông tin liên hệ để được tư vấn trực
-                            tuyến miễn phí.<a href="<?php echo $local ?>">[TƯ VẤN TRỰC TUYẾN]</a>
+                    một số nội dung có thể không thuộc nghiệp vụ của phòng khám chúng tôi, Hiệu quả của việc hỗ trợ
+                    điều trị phụ thuộc vào cơ địa của mỗi người. Cần biết thông tin liên hệ để được tư vấn trực
+                    tuyến miễn phí.<a href="<?php echo $local ?>">[TƯ VẤN TRỰC TUYẾN]</a>
                 </div>
-                <?php include 'mobile/appointment_mobile.php' ?>
+
             </div>
         </div>
     </main>
@@ -159,8 +157,9 @@ $get_post_detail = $post->getBaiViet_bySlug($filename);
                     }
 
                     //hiển thị css img chatbox
-                    if (imgElements[i].src.startsWith('<?php echo $local ?>/ckfinder/userfiles/images/Chat/Chat-Dakhoa.gif') ==
-                    // if (imgElements[i].src.startsWith('http://localhost/ckfinder/userfiles/images/Chat/Chat-Dakhoa.gif') ==
+                    if (imgElements[i].src.startsWith(
+                            '<?php echo $local ?>/ckfinder/userfiles/images/Chat/Chat-Dakhoa.gif') ==
+                        // if (imgElements[i].src.startsWith('http://localhost/ckfinder/userfiles/images/Chat/Chat-Dakhoa.gif') ==
                         true) {
                         imgElements[i].style.borderRadius = '8px';
                         let divWrapper = document.createElement('p');

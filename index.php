@@ -6,7 +6,7 @@
     <?php include 'layout/header_component.php' ?>
 
     <main>
-        <?php include 'mobile/appointment_mobile.php' ?>
+
         <?php include 'layout/slider_component.php' ?>
 
         <section id="we__bring" class="we__bring">
@@ -16,7 +16,12 @@
                         PHƯƠNG CHÂM PHÒNG KHÁM
                     </h5>
                     <span>
-                        Phòng khám bệnh nam khoa JV Nhật Việt chuyên khám và hỗ trợ điều trị các bệnh nam khoa thường gặp như rối loạn chức năng sinh dục, bao quy đầu, tinh hoàn, tuyến tiền liệt, tiết niệu,… Ngày càng nhiều nam giới hiện nay mắc các bệnh nam khoa, nguyên nhân chủ yếu là do lối sống tình dục không an toàn, môi trường bị ô nhiễm, sử dụng chất kích thích và thiết bị điện tử thường xuyên,...Chính vì vậy nam giới cần chủ động đi khám nam khoa tại các phòng khám bệnh nam khoa uy tín để nhanh chóng phát hiện và hỗ trợ điều trị sớm.
+                        Phòng khám bệnh nam khoa JV Nhật Việt chuyên khám và hỗ trợ điều trị các bệnh nam khoa thường
+                        gặp như rối loạn chức năng sinh dục, bao quy đầu, tinh hoàn, tuyến tiền liệt, tiết niệu,… Ngày
+                        càng nhiều nam giới hiện nay mắc các bệnh nam khoa, nguyên nhân chủ yếu là do lối sống tình dục
+                        không an toàn, môi trường bị ô nhiễm, sử dụng chất kích thích và thiết bị điện tử thường
+                        xuyên,...Chính vì vậy nam giới cần chủ động đi khám nam khoa tại các phòng khám bệnh nam khoa uy
+                        tín để nhanh chóng phát hiện và hỗ trợ điều trị sớm.
                     </span>
                 </div>
                 <hr>
@@ -29,7 +34,9 @@
                             CHÚNG TÔI MANG ĐẾN
                         </div>
                         <div class="we__bring-row-right-text">
-                            Phòng khám Nhật Việt luôn nỗ lực để xây dựng một thương hiệu chăm sóc sức khỏe với hàm lượng tri thức, khoa học và công nghệ ở mức cao. Mỗi dịch vụ y tế đều hướng tới tính tiện ích, hiệu quả, có ý nghĩa với cuộc sống và sức khỏe con người.
+                            Phòng khám Nhật Việt luôn nỗ lực để xây dựng một thương hiệu chăm sóc sức khỏe với hàm lượng
+                            tri thức, khoa học và công nghệ ở mức cao. Mỗi dịch vụ y tế đều hướng tới tính tiện ích,
+                            hiệu quả, có ý nghĩa với cuộc sống và sức khỏe con người.
                         </div>
                         <button class="we__bring-row-right-button">
                             XEM TẤT CẢ CÁC DỊCH VỤ CỦA CHÚNG TÔI
@@ -48,7 +55,9 @@
                         ĐỘI NGŨ BÁC SĨ CHUYÊN KHOA
                     </div>
                     <div class="experienced__row-left-text">
-                        Y, Bác sĩ của phòng khám đều là những nhân tố giỏi. Họ đã từng công tác tại nhiều bệnh viện lớn trong cả nước. Mỗi chuyên gia đảm nhận một chuyên khoa riêng biệt. Chính điều này sẽ giúp quá trình khám chữa bệnh đạt kết quả tối ưu.
+                        Y, Bác sĩ của phòng khám đều là những nhân tố giỏi. Họ đã từng công tác tại nhiều bệnh viện lớn
+                        trong cả nước. Mỗi chuyên gia đảm nhận một chuyên khoa riêng biệt. Chính điều này sẽ giúp quá
+                        trình khám chữa bệnh đạt kết quả tối ưu.
                     </div>
                     <div class="experienced__row-left-center">
                         <button>CHUYÊN NGHIỆP</button>
@@ -61,13 +70,17 @@
                     <div class="experienced__row-left-bottom">
                         <div class="experienced__row-left-bottom-item">
                             <div>
-                                <amp-img class="experienced__row-left-bottom-item-img" src="<?php echo $local ?>/images/icons/icon_check.webp" height="33px" width="40px" alt="..."></amp-img>
+                                <amp-img class="experienced__row-left-bottom-item-img"
+                                    src="<?php echo $local ?>/images/icons/icon_check.webp" height="33px" width="40px"
+                                    alt="..."></amp-img>
                             </div>
                             <span>Y khoa tiên tiến, dịch vụ tận tâm</span>
                         </div>
                         <div class="experienced__row-left-bottom-item">
                             <div>
-                                <amp-img class="experienced__row-left-bottom-item-img" src="<?php echo $local ?>/images/icons/icon_check.webp" height="33px" width="40px" alt="..."></amp-img>
+                                <amp-img class="experienced__row-left-bottom-item-img"
+                                    src="<?php echo $local ?>/images/icons/icon_check.webp" height="33px" width="40px"
+                                    alt="..."></amp-img>
                             </div>
                             <span>Chuyên môn cao, tâm huyết lớn</span>
                         </div>
@@ -76,20 +89,26 @@
                     <div class="experienced__row-left-bottom">
                         <div class="experienced__row-left-bottom-item">
                             <div>
-                                <amp-img class="experienced__row-left-bottom-item-img" src="<?php echo $local ?>/images/icons/icon_check.webp" height="33px" width="40px" alt="..."></amp-img>
+                                <amp-img class="experienced__row-left-bottom-item-img"
+                                    src="<?php echo $local ?>/images/icons/icon_check.webp" height="33px" width="40px"
+                                    alt="..."></amp-img>
                             </div>
                             <span>Nơi sức khỏe được ưu tiên</span>
                         </div>
                         <div class="experienced__row-left-bottom-item">
                             <div>
-                                <amp-img class="experienced__row-left-bottom-item-img" src="<?php echo $local ?>/images/icons/icon_check.webp" height="33px" width="40px" alt="..."></amp-img>
+                                <amp-img class="experienced__row-left-bottom-item-img"
+                                    src="<?php echo $local ?>/images/icons/icon_check.webp" height="33px" width="40px"
+                                    alt="..."></amp-img>
                             </div>
                             <span>Sức khỏe là hạnh phúc, chúng tôi là người bảo vệ</span>
                         </div>
                     </div>
                 </div>
                 <div class="experienced__row-right">
-                    <amp-img class="experienced__row-left-bottom-item-img" src="<?php echo $local ?>/images/users/user-group1.webp" height="490px" width="350px" alt="..."></amp-img>
+                    <amp-img class="experienced__row-left-bottom-item-img"
+                        src="<?php echo $local ?>/images/users/user-group1.webp" height="490px" width="350px" alt="...">
+                    </amp-img>
                 </div>
             </div>
             <div class="experienced__bottom">
@@ -156,16 +175,6 @@
             </div>
 
         </section>
-        <section class="advise" id="advise">
-            <div class="advise__row ">
-                <div class="advise__row-left ">nhận tư vấn sức khỏe từ
-                    các chuyên gia của chúng tôi</div>
-                <div class="advise__row-left-right ">
-                    <input id="sdt_pc" class="advise__row-left-right-input" type="number" placeholder="Nhập số điện thoại">
-                    <button onclick="onClickCreatePhonePC()" class="advise__row-left-right-bottom">GỬI</button>
-                </div>
-            </div>
-        </section>
 
         <section class="dominance" id="dominance">
             <div class=" dominance__container">
@@ -174,27 +183,39 @@
                 </div>
                 <div class="dominance__container-row">
                     <div class="dominance__container-row-col ">
-                        <amp-img class="dominance__container-row-col-img" src="<?php echo $local ?>/images/icons/icon_check1.webp" height="35px" width="35px" alt="..."></amp-img>
+                        <amp-img class="dominance__container-row-col-img"
+                            src="<?php echo $local ?>/images/icons/icon_check1.webp" height="35px" width="35px"
+                            alt="..."></amp-img>
                         <span>Đội ngũ bác sĩ chuyên môn cao</span>
                     </div>
                     <div class="dominance__container-row-col ">
-                        <amp-img class="dominance__container-row-col-img" src="<?php echo $local ?>/images/icons/icon_check1.webp" height="35px" width="35px" alt="..."></amp-img>
+                        <amp-img class="dominance__container-row-col-img"
+                            src="<?php echo $local ?>/images/icons/icon_check1.webp" height="35px" width="35px"
+                            alt="..."></amp-img>
                         <span>Môi trường thân thiện, dịch vụ tận tâm, chu đáo</span>
                     </div>
                     <div class="dominance__container-row-col ">
-                        <amp-img class="dominance__container-row-col-img" src="<?php echo $local ?>/images/icons/icon_check1.webp" height="35px" width="35px" alt="..."></amp-img>
+                        <amp-img class="dominance__container-row-col-img"
+                            src="<?php echo $local ?>/images/icons/icon_check1.webp" height="35px" width="35px"
+                            alt="..."></amp-img>
                         <span>Hệ thống máy móc hiện đại</span>
                     </div>
                     <div class="dominance__container-row-col ">
-                        <amp-img class="dominance__container-row-col-img" src="<?php echo $local ?>/images/icons/icon_check1.webp" height="35px" width="35px" alt="..."></amp-img>
+                        <amp-img class="dominance__container-row-col-img"
+                            src="<?php echo $local ?>/images/icons/icon_check1.webp" height="35px" width="35px"
+                            alt="..."></amp-img>
                         <span>Chi phí khám hỗ trợ điều trị bệnh hợp lý</span>
                     </div>
                     <div class="dominance__container-row-col ">
-                        <amp-img class="dominance__container-row-col-img" src="<?php echo $local ?>/images/icons/icon_check1.webp" height="35px" width="35px" alt="..."></amp-img>
+                        <amp-img class="dominance__container-row-col-img"
+                            src="<?php echo $local ?>/images/icons/icon_check1.webp" height="35px" width="35px"
+                            alt="..."></amp-img>
                         <span>Thủ tục nhanh gọn, không rườm rà</span>
                     </div>
                     <div class="dominance__container-row-col ">
-                        <amp-img class="dominance__container-row-col-img" src="<?php echo $local ?>/images/icons/icon_check1.webp" height="35px" width="35px" alt="..."></amp-img>
+                        <amp-img class="dominance__container-row-col-img"
+                            src="<?php echo $local ?>/images/icons/icon_check1.webp" height="35px" width="35px"
+                            alt="..."></amp-img>
                         <span>Môi trường thân thiện</span>
                     </div>
                 </div>
@@ -296,7 +317,9 @@
                             </div>
                         </div>
                         <div class="feedback__container-row-card-bottom">
-                            “Mình bị viêm da cũng khá nặng, đã chữa trị nhiều nơi nhưng không khỏi. Mình biết đến Phòng khám Nhật Việt qua một người bạn. Khi mình đến khám, bác sĩ và nhân viên phòng khám hướng dẫn mình rất chi tiết trong từng hạng mục.”
+                            “Mình bị viêm da cũng khá nặng, đã chữa trị nhiều nơi nhưng không khỏi. Mình biết đến Phòng
+                            khám Nhật Việt qua một người bạn. Khi mình đến khám, bác sĩ và nhân viên phòng khám hướng
+                            dẫn mình rất chi tiết trong từng hạng mục.”
                         </div>
                     </div>
 
@@ -321,7 +344,9 @@
                             </div>
                         </div>
                         <div class="feedback__container-row-card-bottom">
-                            “Theo Hải thì chất lượng phòng khám là khỏi chê, đội ngũ nhân viên y, bác sĩ rất thân thiện và nhiệt tình. Thời gian trả kết quả cũng rất nhanh, cái chính là an toàn và bảo mật. Đây là điều mà Hải cảm thấy hài lòng nhất, xin cám ơn Phòng khám Nhật Việt!”
+                            “Theo Hải thì chất lượng phòng khám là khỏi chê, đội ngũ nhân viên y, bác sĩ rất thân thiện
+                            và nhiệt tình. Thời gian trả kết quả cũng rất nhanh, cái chính là an toàn và bảo mật. Đây là
+                            điều mà Hải cảm thấy hài lòng nhất, xin cám ơn Phòng khám Nhật Việt!”
                         </div>
                     </div>
 
@@ -345,7 +370,8 @@
                             </div>
                         </div>
                         <div class="feedback__container-row-card-bottom">
-                            “Công việc của Hiếu khá bận nên thời gian rảnh rất ít. Do đó Hiếu đã chọn thăm khám nam khoa tại Phòng khám Nhật Việt qua Đặt hẹn Online.”
+                            “Công việc của Hiếu khá bận nên thời gian rảnh rất ít. Do đó Hiếu đã chọn thăm khám nam khoa
+                            tại Phòng khám Nhật Việt qua Đặt hẹn Online.”
                         </div>
                     </div>
                 </div>

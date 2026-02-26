@@ -6,9 +6,7 @@
     <?php include 'layout/header_component.php' ?>
 
     <main>
-
         <?php include 'layout/slider_component.php' ?>
-
         <section id="we__bring" class="we__bring">
             <div class="we__bring-body">
                 <div class="we__bring-list">
@@ -111,7 +109,7 @@
                     </amp-img>
                 </div>
             </div>
-            <div class="experienced__bottom">
+            <!-- <div class="experienced__bottom">
                 <div class="experienced__list">
                     <div class="experienced__list-item">
                         <img src="<?php echo $local ?>/images/users/user_1.webp" alt="..."></img>
@@ -172,7 +170,7 @@
                 <div class="experienced-item experienced-item-1 "></div>
                 <div class="experienced-item experienced-item-2"></div>
                 <div class="experienced-item experienced-item-3"></div>
-            </div>
+            </div> -->
 
         </section>
 

@@ -17,7 +17,7 @@
                          <div>Tổng đài hỗ trợ khách hàng 24/7</div>
                      </div>
                  </a>
-                 <a href="<?php echo $local ?>" class="footer__support-body-card">
+                 <a href="https://tuvan.mayo.com.vn/LR/Chatpre.aspx?id=KUK38256576&lng=en" class="footer__support-body-card">
                      <amp-img class="footer__support-body-card-img"
                          src="<?php echo $local ?>/images/icons/icon_group_chat.webp" height="54px" width="80px"
                          alt="..."></amp-img>
@@ -112,20 +112,20 @@
  </footer>
  <div class="footer_list_icon">
      <div>
-         <a class="footer_icon_happy" href="<?php echo $local ?>" target="_blank">
+         <a class="footer_icon_happy" href="https://tuvan.mayo.com.vn/LR/Chatpre.aspx?id=KUK38256576&lng=en">
              <amp-img src="<?php echo $local ?>/images/logo_mobile/icon_happy.gif" height="50px" width="50px" alt="...">
              </amp-img>
          </a>
      </div>
      <div style="margin-top:10px">
-         <a class="footer_icon_zalo" href="<?php echo $local ?>" target="_blank">
+         <a class="footer_icon_zalo" href="<?php echo $local ?>">
              <amp-img src="<?php echo $local ?>/images/logo_mobile/icon_zalo.png" height="50px" width="50px" alt="...">
              </amp-img>
              <div class="ping_zalo"></div>
          </a>
      </div>
      <div style="margin-top:10px">
-         <a class="footer_icon_mess" href="https://tuvan.mayo.com.vn/LR/Chatpre.aspx?id=KUK38256576&lng=en" target="_blank">
+         <a class="footer_icon_mess" href="https://tuvan.mayo.com.vn/LR/Chatpre.aspx?id=KUK38256576&lng=en">
              <amp-img style="margin-left:3px" src="<?php echo $local ?>/images/logo_mobile/icon_message.webp"
                  height="45px" width="45px" alt="..."></amp-img>
              <div class="ping"></div>

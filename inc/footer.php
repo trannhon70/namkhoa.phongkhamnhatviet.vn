@@ -103,7 +103,7 @@
                      <span>GỌI NGAY</span>
                  </div>
              </a>
-             <a href="<?php echo $local ?>" class="footer__mobile-container-right">
+             <a href="https://tuvan.mayo.com.vn/LR/Chatpre.aspx?id=KUK38256576&lng=en" class="footer__mobile-container-right">
                  <div>ĐẶT LỊCH</div>
                  <img width="70px" height="auto" src="<?php echo $local ?>/images/icons/icon_lich.png" alt="...">
              </a>
@@ -125,7 +125,7 @@
          </a>
      </div>
      <div style="margin-top:10px">
-         <a class="footer_icon_mess" href="<?php echo $local ?>" target="_blank">
+         <a class="footer_icon_mess" href="https://tuvan.mayo.com.vn/LR/Chatpre.aspx?id=KUK38256576&lng=en" target="_blank">
              <amp-img style="margin-left:3px" src="<?php echo $local ?>/images/logo_mobile/icon_message.webp"
                  height="45px" width="45px" alt="..."></amp-img>
              <div class="ping"></div>
@@ -134,7 +134,7 @@
      </div>
  </div>
 
- <script defer src="https://livechat.phongkhamnhatviet.vn/chat-box-ai.js"></script>
+ <script language="javascript" src="https://tuvan.mayo.com.vn/JS/LsJS.aspx?siteid=KUK38256576&float=1&lng=en"></script>
  <script async src="<?php echo $local ?>/js/cdn_image.min.js"></script>
  <script src="<?php echo $local ?>/js/jquery-3.7.1.min.js"></script>
  <script async src="<?php echo $local ?>/js/toastr.min.js"></script>

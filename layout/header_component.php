@@ -118,7 +118,7 @@
         </a>
     </div>
     <div class="header__mobile-banner">
-        <img width="100%" height="auto" src="<?php echo $local ?>/images/banner/mobile_banner.webp" alt="">
+        <img fetchpriority=high width="100%" height="auto" src="<?php echo $local ?>/images/banner/mobile_banner.webp" alt="..">
     </div>
 
     <nav>

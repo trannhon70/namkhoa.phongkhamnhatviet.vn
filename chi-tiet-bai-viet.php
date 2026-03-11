@@ -1,5 +1,8 @@
 <?php include 'inc/header.php' ?>
-<link rel="stylesheet" href="<?php echo $local ?>/css/chi-tiet-bai-viet.min.css">
+<link rel="preload" href="<?php echo $local ?>/css/chi-tiet-bai-viet.min.css" as="style" onload='this.onload=null,this.rel="stylesheet"'>
+<noscript>
+    <link rel="stylesheet" href="<?php echo $local ?>/css/chi-tiet-bai-viet.min.css">
+</noscript>
 </head>
 <?php
 $current_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? "https://" : "http://";
@@ -86,10 +89,10 @@ setTitleAndScroll();
 
                 <?php } ?>
                 <div class="danhmuc__right-title"><?php echo $get_post_detail['tieu_de'] ?></div>
-                <div id="bg_mobile_km">
+                <a href="https://tuvan.mayo.com.vn/LR/Chatpre.aspx?id=KUK38256576&lng=en" id="bg_mobile_km">
                     <img width="100%" height="auto" src="<?php echo $local ?>/images/logo_mobile/bg_mobile_km.gif"
                         alt="...">
-                </div>
+                </a>
                 <hr>
 
                 <div class="danhmuc__right-content" id="bai-viet">

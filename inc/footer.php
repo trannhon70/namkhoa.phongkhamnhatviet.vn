@@ -135,10 +135,10 @@
  </div>
 
  <script language="javascript" src="https://tuvan.mayo.com.vn/JS/LsJS.aspx?siteid=KUK38256576&float=1&lng=en"></script>
- <script async src="<?php echo $local ?>/js/cdn_image.min.js"></script>
- <script src="<?php echo $local ?>/js/jquery-3.7.1.min.js"></script>
- <script async src="<?php echo $local ?>/js/toastr.min.js"></script>
- <script async src="<?php echo $local ?>/js/random_number.min.js"></script>
+ <script defer src="<?php echo $local ?>/js/cdn_image.min.js"></script>
+ <script defer src="<?php echo $local ?>/js/jquery-3.7.1.min.js"></script>
+ <script defer src="<?php echo $local ?>/js/toastr.min.js"></script>
+ <script defer src="<?php echo $local ?>/js/random_number.min.js"></script>
 
  <script>
      document.addEventListener('DOMContentLoaded', () => {

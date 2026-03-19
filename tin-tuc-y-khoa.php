@@ -150,7 +150,10 @@ if ($filename === 'tin-tuc-y-khoa') {
                         imgElements[i].style.setProperty('display', 'block', 'important');
                         let divWrapper = document.createElement('a');
                         divWrapper.className = 'glow-on-hover';
-                        divWrapper.href = "https://tuvan.mayo.com.vn/LR/Chatpre.aspx?id=KUK38256576&lng=en";
+                        divWrapper.href = "javascript:void(0)";
+                        divWrapper.addEventListener("click", function() {
+                            openZoosUrl('chatwin');
+                        });
                         divWrapper.setAttribute("aria-label", "Chat da khoa");
                         imgElements[i].parentNode.insertBefore(divWrapper, imgElements[i]);
                         divWrapper.appendChild(imgElements[i])

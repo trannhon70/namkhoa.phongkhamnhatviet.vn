@@ -108,7 +108,7 @@
         <a href="<?php echo $local ?>" class="header__mobile-row-left">
             <img width="100%" height="40px" src="<?php echo $local ?>/images/logo_mobile/logo_mobile.webp" alt="">
         </a>
-        <a href="tel:+0901869945" class="header__mobile-row-right">
+        <a href="tel:0901869945" class="header__mobile-row-right">
             <amp-img class="header__mobile-row-right-icon" src="<?php echo $local ?>/images/icons/icon_phone_no.webp"
                 height="30px" width="25px" alt="..."></amp-img>
             <div class="header__mobile-row-right-hotline">

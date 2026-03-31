@@ -96,7 +96,8 @@ setTitleAndScroll();
                 <hr>
 
                 <div class="danhmuc__right-content" id="bai-viet">
-                    <?php echo htmlspecialchars_decode($get_post_detail['content']); ?> </div>
+                    <!-- <?php echo htmlspecialchars_decode($get_post_detail['content']); ?>  -->
+                </div>
                 <div class="bai-viet-footer">Nội dung bài viết cung cấp nhằm mục đích tham khảo thêm kiến thức y tế,
                     một số nội dung có thể không thuộc nghiệp vụ của phòng khám chúng tôi, Hiệu quả của việc hỗ trợ
                     điều trị phụ thuộc vào cơ địa của mỗi người. Cần biết thông tin liên hệ để được tư vấn trực
@@ -108,7 +109,7 @@ setTitleAndScroll();
     </main>
 
     <script>
-        document.addEventListener('DOMContentLoaded', (event) => {
+        function applyCSSandJS() {
             //images gây shock
             const shockElements = document.querySelectorAll('.shock_img');
             shockElements.forEach(shockElement => {
@@ -192,8 +193,8 @@ setTitleAndScroll();
 
                     //hiển thị css img chatbox
                     if (imgElements[i].src.startsWith(
-                            '<?php echo $local ?>/ckfinder/userfiles/images/Chat/Chat-Dakhoa.gif') ==
-                        // if (imgElements[i].src.startsWith('http://localhost/ckfinder/userfiles/images/Chat/Chat-Dakhoa.gif') ==
+                            '<?php echo $local ?>/ckfinder/userfiles/images/Chat') ==
+                        // if (imgElements[i].src.startsWith('http://localhost/ckfinder/userfiles/images/Chat') ==
                         true) {
                         imgElements[i].style.borderRadius = '8px';
                         imgElements[i].style.setProperty('display', 'block', 'important');
@@ -251,7 +252,42 @@ setTitleAndScroll();
             } else {
                 console.warn("One or more elements were not found in the DOM.");
             }
-        })
+        }
+    </script>
+    <script>
+        const bodyPlaceholder = document.getElementById("bai-viet");
+
+        const loadBody = () => {
+            let content = `<?php echo htmlspecialchars_decode($get_post_detail['content']); ?>`;
+            // Gán tạm nội dung vào DOM ẩn để xử lý
+            const tempDiv = document.createElement('div');
+            tempDiv.innerHTML = content;
+
+            // Duyệt tất cả text node
+            const walker = document.createTreeWalker(tempDiv, NodeFilter.SHOW_TEXT, null, false);
+            while (walker.nextNode()) {
+                const node = walker.currentNode;
+                // Thay số điện thoại
+                node.nodeValue = node.nodeValue.replace(/\(028\)\s*7776\s*7777/g, '(028) 7776 7777 - 0901 869 945');
+            }
+
+            // Gán ra DOM chính
+            bodyPlaceholder.innerHTML = tempDiv.innerHTML;
+            bodyPlaceholder.classList.add("loaded");
+        };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    loadBody();
+                    applyCSSandJS();
+                    checkImgMobile()
+                }
+            });
+        });
+
+        // Khởi tạo tải content ban đầu và bắt đầu quan sát bodyPlaceholder
+
+        observer.observe(bodyPlaceholder);
     </script>
 
     <?php include 'inc/footer.php' ?>

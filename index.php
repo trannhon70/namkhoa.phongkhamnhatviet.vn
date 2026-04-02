@@ -185,37 +185,37 @@
                 <div class="dominance__container-row">
                     <div class="dominance__container-row-col ">
                         <amp-img class="dominance__container-row-col-img"
-                            src="<?php echo $local ?>/images/icons/icon_check1.webp" height="35px" width="35px"
+                            src="<?php echo $local ?>/images/icons/icon_check.webp" height="35px" width="35px"
                             alt="..."></amp-img>
                         <span>Đội ngũ bác sĩ chuyên môn cao</span>
                     </div>
                     <div class="dominance__container-row-col ">
                         <amp-img class="dominance__container-row-col-img"
-                            src="<?php echo $local ?>/images/icons/icon_check1.webp" height="35px" width="35px"
+                            src="<?php echo $local ?>/images/icons/icon_check.webp" height="35px" width="35px"
                             alt="..."></amp-img>
                         <span>Môi trường thân thiện, dịch vụ tận tâm, chu đáo</span>
                     </div>
                     <div class="dominance__container-row-col ">
                         <amp-img class="dominance__container-row-col-img"
-                            src="<?php echo $local ?>/images/icons/icon_check1.webp" height="35px" width="35px"
+                            src="<?php echo $local ?>/images/icons/icon_check.webp" height="35px" width="35px"
                             alt="..."></amp-img>
                         <span>Hệ thống máy móc hiện đại</span>
                     </div>
                     <div class="dominance__container-row-col ">
                         <amp-img class="dominance__container-row-col-img"
-                            src="<?php echo $local ?>/images/icons/icon_check1.webp" height="35px" width="35px"
+                            src="<?php echo $local ?>/images/icons/icon_check.webp" height="35px" width="35px"
                             alt="..."></amp-img>
                         <span>Chi phí khám hỗ trợ điều trị bệnh hợp lý</span>
                     </div>
                     <div class="dominance__container-row-col ">
                         <amp-img class="dominance__container-row-col-img"
-                            src="<?php echo $local ?>/images/icons/icon_check1.webp" height="35px" width="35px"
+                            src="<?php echo $local ?>/images/icons/icon_check.webp" height="35px" width="35px"
                             alt="..."></amp-img>
                         <span>Thủ tục nhanh gọn, không rườm rà</span>
                     </div>
                     <div class="dominance__container-row-col ">
                         <amp-img class="dominance__container-row-col-img"
-                            src="<?php echo $local ?>/images/icons/icon_check1.webp" height="35px" width="35px"
+                            src="<?php echo $local ?>/images/icons/icon_check.webp" height="35px" width="35px"
                             alt="..."></amp-img>
                         <span>Môi trường thân thiện</span>
                     </div>

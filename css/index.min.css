@@ -10,9 +10,9 @@
     /* color */
     --color-white: white;
     --color-black: black;
-    --color-01969A: #01969a;
+    --color-01969A: #3274c9;
     --color-00D8D8: #00d8d8;
-    --color-50e2e7: #50e2e7;
+    --color-50e2e7: #3274c9;
     --color-067579: #067579;
     --color-085e60: #085e60;
     --color-999: #999;
@@ -20,12 +20,12 @@
     /* background */
     --background-color-white: white;
     --background-color-F2F2F2: #f2f2f2;
-    --background-color-01969A: #01969a;
-    --background-color-00D8D8: #00d8d8;
+    --background-color-01969A: #3274c9;
+    --background-color-00D8D8: #3274c9;
     --background-color-067579: #067579;
     --background-color-23dee448: #23dee448;
     --background-color-50e2e7: #50e2e7;
-    --background-color-008083: #008083;
+    --background-color-008083: #3274c9;
 
     /* font size */
     --font-size-10: 10px;

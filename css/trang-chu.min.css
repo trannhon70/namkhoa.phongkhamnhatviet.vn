@@ -366,7 +366,7 @@
     display: var(--display-flex);
     align-items: var(--align-item-center);
     box-shadow: 3px 3px 4px 0px #00000026;
-    border: 2px solid #01969a;
+    border: 2px solid #3274c9;
     border-radius: 10px;
     background-color: white;
     padding: 10px 0px 0px 10px;
@@ -409,7 +409,7 @@
 
 .feedback__container-row-card {
     margin-top: 10px;
-    border: 2px solid #00d8d8;
+    border: 2px solid #3274c9;
     box-shadow: 4px 4px 4px 0px #00000040;
     border-radius: 10px;
     width: 93%;
@@ -453,7 +453,7 @@
 .feedback__container-row-card-top-right > hr {
     border: 0px;
     height: 3px;
-    background: linear-gradient(270deg, #00d8d8 0%, #01969a 100%);
+    background: linear-gradient(270deg, #3274c9 0%, #3274c9 100%);
     margin-top: 0px;
     width: 200px;
     margin-left: 0px;

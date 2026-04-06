@@ -47,9 +47,9 @@ $total_pages = ceil($total_articles / $limit);
                 <?php endforeach; ?>
 
                 <div class="danhmuc__left-banner">
-                    <amp-img class="danhmuc__left-banner-img"
+                    <img class="danhmuc__left-banner-img"
                         src="<?php echo $local ?>/images/banner/banner_khuyen_mai.webp" height="380px" width="250px"
-                        alt="..."></amp-img>
+                        alt="..."></img>
                 </div>
 
             </div>
@@ -61,9 +61,9 @@ $total_pages = ceil($total_articles / $limit);
                     <?php foreach ($value['danhSachBaiViet'] as $item): ?>
                         <div class="danhmuc__right-card">
                             <div class="danhmuc__right-card-left">
-                                <amp-img class="danhmuc__right-card-img"
+                                <img class="danhmuc__right-card-img"
                                     src="<?php echo $local ?>/admin/uploads/<?php echo $item['img'] ?>" height="150px"
-                                    width="150px" alt="..."></amp-img>
+                                    width="150px" alt="..."></img>
                             </div>
                             <div class="danhmuc__right-card-right">
                                 <div class="danhmuc__right-card-right-title">
@@ -141,15 +141,15 @@ $total_pages = ceil($total_articles / $limit);
                     </div>
                     <div class="danhmuc__right-share-icon">
                         <a href="<?php echo $local ?>">
-                            <amp-img class="danhmuc__right-share-icon-img"
+                            <img class="danhmuc__right-share-icon-img"
                                 src="<?php echo $local ?>/images/icons/icon_zalo.webp" width="50px" height="50px"
-                                alt="..."></amp-img>
+                                alt="..."></img>
                         </a>
 
                         <a href="<?php echo $local ?>">
-                            <amp-img class="danhmuc__right-share-icon-img"
+                            <img class="danhmuc__right-share-icon-img"
                                 src="<?php echo $local ?>/images/icons/icon_fb.webp" width="50px" height="50px"
-                                alt="..."></amp-img>
+                                alt="..."></img>
 
                         </a>
 

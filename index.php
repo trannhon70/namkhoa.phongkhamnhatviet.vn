@@ -71,17 +71,17 @@
                     <div class="experienced__row-left-bottom">
                         <div class="experienced__row-left-bottom-item">
                             <div>
-                                <amp-img class="experienced__row-left-bottom-item-img"
+                                <img class="experienced__row-left-bottom-item-img"
                                     src="<?php echo $local ?>/images/icons/icon_check.webp" height="33px" width="40px"
-                                    alt="..."></amp-img>
+                                    alt="..."></img>
                             </div>
                             <span>Y khoa tiên tiến, dịch vụ tận tâm</span>
                         </div>
                         <div class="experienced__row-left-bottom-item">
                             <div>
-                                <amp-img class="experienced__row-left-bottom-item-img"
+                                <img class="experienced__row-left-bottom-item-img"
                                     src="<?php echo $local ?>/images/icons/icon_check.webp" height="33px" width="40px"
-                                    alt="..."></amp-img>
+                                    alt="..."></img>
                             </div>
                             <span>Chuyên môn cao, tâm huyết lớn</span>
                         </div>
@@ -90,26 +90,26 @@
                     <div class="experienced__row-left-bottom">
                         <div class="experienced__row-left-bottom-item">
                             <div>
-                                <amp-img class="experienced__row-left-bottom-item-img"
+                                <img class="experienced__row-left-bottom-item-img"
                                     src="<?php echo $local ?>/images/icons/icon_check.webp" height="33px" width="40px"
-                                    alt="..."></amp-img>
+                                    alt="..."></img>
                             </div>
                             <span>Nơi sức khỏe được ưu tiên</span>
                         </div>
                         <div class="experienced__row-left-bottom-item">
                             <div>
-                                <amp-img class="experienced__row-left-bottom-item-img"
+                                <img class="experienced__row-left-bottom-item-img"
                                     src="<?php echo $local ?>/images/icons/icon_check.webp" height="33px" width="40px"
-                                    alt="..."></amp-img>
+                                    alt="..."></img>
                             </div>
                             <span>Sức khỏe là hạnh phúc, chúng tôi là người bảo vệ</span>
                         </div>
                     </div>
                 </div>
                 <div class="experienced__row-right">
-                    <amp-img class="experienced__row-left-bottom-item-img"
+                    <img class="experienced__row-left-bottom-item-img"
                         src="<?php echo $local ?>/images/users/user-group1.webp" height="490px" width="350px" alt="...">
-                    </amp-img>
+                    </img>
                 </div>
             </div>
             <!-- <div class="experienced__bottom">
@@ -184,39 +184,39 @@
                 </div>
                 <div class="dominance__container-row">
                     <div class="dominance__container-row-col ">
-                        <amp-img class="dominance__container-row-col-img"
+                        <img class="dominance__container-row-col-img"
                             src="<?php echo $local ?>/images/icons/icon_check.webp" height="35px" width="35px"
-                            alt="..."></amp-img>
+                            alt="..."></img>
                         <span>Đội ngũ bác sĩ chuyên môn cao</span>
                     </div>
                     <div class="dominance__container-row-col ">
-                        <amp-img class="dominance__container-row-col-img"
+                        <img class="dominance__container-row-col-img"
                             src="<?php echo $local ?>/images/icons/icon_check.webp" height="35px" width="35px"
-                            alt="..."></amp-img>
+                            alt="..."></img>
                         <span>Môi trường thân thiện, dịch vụ tận tâm, chu đáo</span>
                     </div>
                     <div class="dominance__container-row-col ">
-                        <amp-img class="dominance__container-row-col-img"
+                        <img class="dominance__container-row-col-img"
                             src="<?php echo $local ?>/images/icons/icon_check.webp" height="35px" width="35px"
-                            alt="..."></amp-img>
+                            alt="..."></img>
                         <span>Hệ thống máy móc hiện đại</span>
                     </div>
                     <div class="dominance__container-row-col ">
-                        <amp-img class="dominance__container-row-col-img"
+                        <img class="dominance__container-row-col-img"
                             src="<?php echo $local ?>/images/icons/icon_check.webp" height="35px" width="35px"
-                            alt="..."></amp-img>
+                            alt="..."></img>
                         <span>Chi phí khám hỗ trợ điều trị bệnh hợp lý</span>
                     </div>
                     <div class="dominance__container-row-col ">
-                        <amp-img class="dominance__container-row-col-img"
+                        <img class="dominance__container-row-col-img"
                             src="<?php echo $local ?>/images/icons/icon_check.webp" height="35px" width="35px"
-                            alt="..."></amp-img>
+                            alt="..."></img>
                         <span>Thủ tục nhanh gọn, không rườm rà</span>
                     </div>
                     <div class="dominance__container-row-col ">
-                        <amp-img class="dominance__container-row-col-img"
+                        <img class="dominance__container-row-col-img"
                             src="<?php echo $local ?>/images/icons/icon_check.webp" height="35px" width="35px"
-                            alt="..."></amp-img>
+                            alt="..."></img>
                         <span>Môi trường thân thiện</span>
                     </div>
                 </div>
@@ -290,170 +290,8 @@
                 </div>
             </div>
         </section>
-
-        <section class="feedback" id="feedback">
-            <div class="feedback__container">
-                <div class="feedback__container-title">
-                    Phản hồi từ khách hàng
-                </div>
-                <div class="feedback__container-row">
-                    <div class="feedback__container-row-card activeFeedback">
-                        <div class="feedback__container-row-card-top">
-                            <img src="images/users/user_kimOanh.webp" alt="">
-                            <div class="feedback__container-row-card-top-right">
-                                <div class="feedback__container-row-card-top-right-title">
-                                    Kim Oanh
-                                </div>
-                                <div class="feedback__container-row-card-top-right-text">
-                                    Nhân viên văn phòng - Tân Phú
-                                </div>
-                                <hr>
-                                <div class="feedback__container-row-card-top-right-content">
-                                    <img src="images/icons/icon_start.webp" alt="">
-                                    <div>
-                                        2 ngày trước
-                                    </div>
-                                    <button>Mới</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="feedback__container-row-card-bottom">
-                            “Mình bị viêm da cũng khá nặng, đã chữa trị nhiều nơi nhưng không khỏi. Mình biết đến Phòng
-                            khám Nhật Việt qua một người bạn. Khi mình đến khám, bác sĩ và nhân viên phòng khám hướng
-                            dẫn mình rất chi tiết trong từng hạng mục.”
-                        </div>
-                    </div>
-
-                    <div class="feedback__container-row-card ">
-                        <div class="feedback__container-row-card-top">
-                            <img src="images/users/user_khai.webp" alt="">
-                            <div class="feedback__container-row-card-top-right">
-                                <div class="feedback__container-row-card-top-right-title">
-                                    Minh Hải
-                                </div>
-                                <div class="feedback__container-row-card-top-right-text">
-                                    Kiến trúc sư công trình - Bà Rịa Vũng Tàu
-                                </div>
-                                <hr>
-                                <div class="feedback__container-row-card-top-right-content">
-                                    <img src="images/icons/icon_start.webp" alt="">
-                                    <div>
-                                        3 ngày trước
-                                    </div>
-                                    <button>Mới</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="feedback__container-row-card-bottom">
-                            “Theo Hải thì chất lượng phòng khám là khỏi chê, đội ngũ nhân viên y, bác sĩ rất thân thiện
-                            và nhiệt tình. Thời gian trả kết quả cũng rất nhanh, cái chính là an toàn và bảo mật. Đây là
-                            điều mà Hải cảm thấy hài lòng nhất, xin cám ơn Phòng khám Nhật Việt!”
-                        </div>
-                    </div>
-
-                    <div class="feedback__container-row-card ">
-                        <div class="feedback__container-row-card-top">
-                            <img src="images/users/user_hieu.webp" alt="">
-                            <div class="feedback__container-row-card-top-right">
-                                <div class="feedback__container-row-card-top-right-title">
-                                    Trung Hiếu
-                                </div>
-                                <div class="feedback__container-row-card-top-right-text">
-                                    Hướng dẫn viên du lịch - Bình Dương
-                                </div>
-                                <hr>
-                                <div class="feedback__container-row-card-top-right-content">
-                                    <img src="images/icons/icon_start.webp" alt="">
-                                    <div>
-                                        2 tuần trước
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="feedback__container-row-card-bottom">
-                            “Công việc của Hiếu khá bận nên thời gian rảnh rất ít. Do đó Hiếu đã chọn thăm khám nam khoa
-                            tại Phòng khám Nhật Việt qua Đặt hẹn Online.”
-                        </div>
-                    </div>
-                </div>
-                <div class="index-feedbacks">
-                    <div class="feedback-item feedback-item-0"></div>
-                    <div class="feedback-item feedback-item-1 activeFeedback"></div>
-                    <div class="feedback-item feedback-item-2"></div>
-                </div>
-            </div>
-        </section>
+        <?php include_once "layout/feedback_component.php" ?>
     </main>
 
-    <script>
-        const feedbacks = document.querySelectorAll('.feedback__container-row-card');
-        const listItems = document.querySelectorAll('.feedback-item');
-        let currentIndex = 0;
 
-        const showFeedback = (index) => {
-            feedbacks.forEach((feedback, idx) => {
-                feedback.classList.toggle('activeFeedback', idx === index);
-            });
-            listItems.forEach((listItem, idx) => {
-                listItem.classList.toggle('activeFeedback', idx === index);
-            });
-        };
-
-        const handleChangeSlideFeedback = () => {
-            currentIndex = (currentIndex + 1) % feedbacks.length;
-            showFeedback(currentIndex);
-        };
-        showFeedback(currentIndex); // Initialize the first feedback as active
-        setInterval(handleChangeSlideFeedback, 4000);
-    </script>
-
-    <script>
-        function formatPhoneNumber(phoneNumber) {
-            let cleaned = ('' + phoneNumber).replace(/\D/g, '');
-            let match = cleaned.match(/^(\d{4})(\d{3})(\d{3})$/);
-            if (match) {
-                return '(' + match[1] + ') ' + match[2] + '-' + match[3];
-            }
-            return null;
-        }
-
-        function onClickCreatePhonePC() {
-            let sdt = document.getElementById('sdt_pc').value;
-            if (sdt.trim() !== '') {
-                if (formatPhoneNumber(sdt)) {
-                    let baseUrl = window.location.href;
-
-                    var xhr = new XMLHttpRequest();
-                    xhr.open("POST", "https://phongkhamdakhoanhatviet.vn/api/tu-van/create-phone-tu-van.php", true);
-                    xhr.setRequestHeader("Content-Type", "application/json"); // Đổi sang application/json
-                    xhr.onreadystatechange = function() {
-                        if (xhr.readyState === 4 && xhr.status === 200) {
-                            try {
-                                let response = JSON.parse(xhr.responseText);
-                                if (response.status === 'success') {
-                                    toastr.success(response.message);
-                                    document.getElementById('sdt_pc').value = '';
-                                } else {
-                                    toastr.error(response.message);
-                                }
-                            } catch (e) {
-                                toastr.error("Đã xảy ra lỗi trong quá trình xử lý phản hồi từ máy chủ.");
-                            }
-                        }
-                    };
-
-                    let payload = {
-                        sdt: sdt,
-                        url: baseUrl
-                    };
-
-                    xhr.send(JSON.stringify(payload)); // Gửi dữ liệu dưới dạng JSON
-                } else {
-                    toastr.error("Số điện thoại không hợp lệ!");
-                }
-            } else {
-                toastr.error("Số điện thoại không được bỏ trống");
-            }
-        }
-    </script>
     <?php include 'inc/footer.php' ?>

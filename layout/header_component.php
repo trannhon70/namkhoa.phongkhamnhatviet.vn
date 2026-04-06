@@ -7,8 +7,8 @@
         <div class="header__top-list">
             <div class="header__top-list-item">
                 <div style="width: 35px;height: 35px;">
-                    <amp-img class="header__top-list-item-icon" src="<?php echo $local ?>/images/icons/icon_phone.webp"
-                        height="35px" width="35px" alt="..."></amp-img>
+                    <img class="header__top-list-item-icon" src="<?php echo $local ?>/images/icons/icon_phone.webp"
+                        height="35px" width="35px" alt="..."></img>
                 </div>
                 <div class="header__top-list-item-text">Đường dây nóng <br>
                     0901-869-945
@@ -16,8 +16,8 @@
             </div>
             <div class="header__top-list-item">
                 <div style="width: 35px;height: 35px;">
-                    <amp-img class="header__top-list-item-icon" src="<?php echo $local ?>/images/icons/icon_user.webp"
-                        height="35px" width="35px" alt="..."></amp-img>
+                    <img class="header__top-list-item-icon" src="<?php echo $local ?>/images/icons/icon_user.webp"
+                        height="35px" width="35px" alt="..."></img>
                 </div>
                 <div class="header__top-list-item-center">
                     <div class="header__top-list-item-center-top">Giờ làm việc
@@ -31,9 +31,9 @@
             </div>
             <div class="header__top-list-item">
                 <div style="width: 35px;height: 35px;">
-                    <amp-img class="header__top-list-item-icon"
+                    <img class="header__top-list-item-icon"
                         src="<?php echo $local ?>/images/icons/icon_location.webp" height="35px" width="35px" alt="...">
-                    </amp-img>
+                    </img>
                 </div>
                 <div class="header__top-list-item-center">
                     <div class="header__top-list-item-center-top">Địa chỉ
@@ -50,9 +50,9 @@
             <ul class="header__bottom-nav-ul">
                 <li>
                     <a href="<?php echo $local ?>">
-                        <amp-img class="header__top-list-item-icon"
+                        <img class="header__top-list-item-icon"
                             src="<?php echo $local ?>/images/icons/icon_home.webp" height="35px" width="35px" alt="...">
-                        </amp-img>
+                        </img>
                     </a>
                 </li>
                 <li class="header__bottom-nav-ul-li header__bottom-border">
@@ -109,8 +109,8 @@
             <img width="100%" height="40px" src="<?php echo $local ?>/images/logo_mobile/logo_mobile.webp" alt="">
         </a>
         <a href="tel:0901869945" class="header__mobile-row-right">
-            <amp-img class="header__mobile-row-right-icon" src="<?php echo $local ?>/images/icons/icon_phone_no.webp"
-                height="30px" width="25px" alt="..."></amp-img>
+            <img class="header__mobile-row-right-icon" src="<?php echo $local ?>/images/icons/icon_phone_no.webp"
+                height="30px" width="25px" alt="..."></img>
             <div class="header__mobile-row-right-hotline">
                 <div>TƯ VẤN TRỰC TUYẾN</div>
                 <span>0901-869-945</span>

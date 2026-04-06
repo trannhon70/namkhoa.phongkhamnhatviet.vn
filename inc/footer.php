@@ -4,23 +4,23 @@
              <h5>BẠN CẦN HỖ TRỢ?</h5>
              <span>LIÊN HỆ NGAY VỚI CHÚNG TÔI ĐỂ ĐƯỢC TƯ VẤN</span>
              <div class="footer__support-body-icon">
-                 <amp-img class="footer__support-body-icon-img" src="<?php echo $local ?>/images/icons/icon_dash.webp"
-                     height="13px" width="750px" alt="..."></amp-img>
+                 <img class="footer__support-body-icon-img" src="<?php echo $local ?>/images/icons/icon_dash.webp"
+                     height="13px" width="750px" alt="..."></img>
              </div>
              <div class="footer__support-body-row">
                  <a href="tel:0901869945" class="footer__support-body-card">
-                     <amp-img class="footer__support-body-card-img"
+                     <img class="footer__support-body-card-img"
                          src="<?php echo $local ?>/images/icons/icon_group_user.webp" height="54px" width="80px"
-                         alt="..."></amp-img>
+                         alt="..."></img>
                      <div class="footer__support-body-text">
                          <h5>0901-869-945</h5>
                          <div>Tổng đài hỗ trợ khách hàng 24/7</div>
                      </div>
                  </a>
                  <a href="javascript:void(0)" onclick="openZoosUrl('chatwin'); return false;" class="footer__support-body-card">
-                     <amp-img class="footer__support-body-card-img"
+                     <img class="footer__support-body-card-img"
                          src="<?php echo $local ?>/images/icons/icon_group_chat.webp" height="54px" width="80px"
-                         alt="..."></amp-img>
+                         alt="..."></img>
                      <div class="footer__support-body-text">
                          <h5>Chat với nhân viên</h5>
                          <div>Giải đáp thắc mắc về quy trình</div>
@@ -31,8 +31,8 @@
      </div>
      <div class="footer__contact">
          <div class="footer__contact-left">
-             <amp-img class="footer__contact-right-img" src="<?php echo $local ?>/images/logo/logo2.webp" height="72px"
-                 width="300px" alt="..."></amp-img>
+             <img class="footer__contact-right-img" src="<?php echo $local ?>/images/logo/logo2.webp" height="72px"
+                 width="300px" alt="..."></img>
              <div class="footer__contact-left-title">
                  <span>GIỜ LÀM VIỆC</span>
              </div>
@@ -46,18 +46,18 @@
                  <span>THÔNG TIN LIÊN HỆ</span>
              </div>
              <div class="footer__contact-left-card">
-                 <amp-img class="footer__contact-left-card-img"
+                 <img class="footer__contact-left-card-img"
                      src="<?php echo $local ?>/images/icons/icon_phone_no.webp" height="34px" width="36px" alt="...">
-                 </amp-img>
+                 </img>
                  <div class="footer__contact-left-card-div">
                      <h5>HOTLINE</h5>
                      <span>0901-869-945</span>
                  </div>
              </div>
              <div class="footer__contact-left-card">
-                 <amp-img class="footer__contact-left-card-img"
+                 <img class="footer__contact-left-card-img"
                      src="<?php echo $local ?>/images/icons/icon_location.webp" height="34px" width="36px" alt="...">
-                 </amp-img>
+                 </img>
                  <div class="footer__contact-left-card-div">
                      <h5>ĐỊA CHỈ</h5>
                      <span>73 Kinh Dương Vương, Phường Phú Lâm, TP.HCM (Đc cũ: 73 Kinh Dương Vương, Phường 12, Quận
@@ -65,8 +65,8 @@
                  </div>
              </div>
              <div class="footer__contact-left-card">
-                 <amp-img class="footer__contact-left-card-img" src="<?php echo $local ?>/images/icons/icon_mail.webp"
-                     height="34px" width="36px" alt="..."></amp-img>
+                 <img class="footer__contact-left-card-img" src="<?php echo $local ?>/images/icons/icon_mail.webp"
+                     height="34px" width="36px" alt="..."></img>
                  <div class="footer__contact-left-card-div">
                      <h5>MAIL</h5>
                      <span>pknhatviet@gmail.com</span>
@@ -74,8 +74,8 @@
              </div>
          </div>
          <div class="footer__contact-right">
-             <amp-img class="footer__contact-right-img" src="<?php echo $local ?>/images/banner/Map.webp" height="390px"
-                 width="680px" alt="..."></amp-img>
+             <img class="footer__contact-right-img" src="<?php echo $local ?>/images/banner/Map.webp" height="390px"
+                 width="680px" alt="..."></img>
          </div>
      </div>
      <div class="footer__copyRight">
@@ -113,31 +113,28 @@
  <div class="footer_list_icon">
      <div>
          <a class="footer_icon_happy" href="javascript:void(0)" onclick="openZoosUrl('chatwin'); return false;">
-             <amp-img src="<?php echo $local ?>/images/logo_mobile/icon_happy.gif" height="50px" width="50px" alt="...">
-             </amp-img>
+             <img src="<?php echo $local ?>/images/logo_mobile/icon_happy.gif" height="50px" width="50px" alt="...">
+             </img>
          </a>
      </div>
      <div style="margin-top:10px">
          <a class="footer_icon_zalo" href="javascript:void(0)" onclick="openZoosUrl('chatwin'); return false;">
-             <amp-img src="<?php echo $local ?>/images/logo_mobile/icon_zalo.png" height="50px" width="50px" alt="...">
-             </amp-img>
+             <img src="<?php echo $local ?>/images/logo_mobile/icon_zalo.png" height="50px" width="50px" alt="...">
+             </img>
              <div class="ping_zalo"></div>
          </a>
      </div>
      <div style="margin-top:10px">
          <a class="footer_icon_mess" href="javascript:void(0)" onclick="openZoosUrl('chatwin'); return false;">
-             <amp-img style="margin-left:3px" src="<?php echo $local ?>/images/logo_mobile/icon_message.webp"
-                 height="45px" width="45px" alt="..."></amp-img>
+             <img style="margin-left:3px" src="<?php echo $local ?>/images/logo_mobile/icon_message.webp"
+                 height="45px" width="45px" alt="..."></img>
              <div class="ping"></div>
              <div class="footer_list_icon_number">10</div>
          </a>
      </div>
  </div>
 
- <script language="javascript" src="https://tuvan.mayo.com.vn/JS/LsJS.aspx?siteid=KUK38256576&float=1&lng=en"></script>
- <script defer src="<?php echo $local ?>/js/cdn_image.min.js"></script>
- <script defer src="<?php echo $local ?>/js/jquery-3.7.1.min.js"></script>
- <script defer src="<?php echo $local ?>/js/toastr.min.js"></script>
+ <!-- <script language="javascript" src="https://tuvan.mayo.com.vn/JS/LsJS.aspx?siteid=KUK38256576&float=1&lng=en"></script> -->
  <script defer src="<?php echo $local ?>/js/random_number.min.js"></script>
 
  <script>
@@ -194,6 +191,14 @@
              updateHeaderScripts();
          });
      });
+ </script>
+ <script defer>
+     function getRandomViews() {
+         return Math.floor(Math.random() * (10000 - 2000 + 1)) + 2000;
+     }
+
+     const viewElement = document.getElementById('views');
+     viewElement.textContent = `Lượt xem: ${getRandomViews()}`;
  </script>
  </body>
 

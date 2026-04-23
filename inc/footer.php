@@ -152,10 +152,10 @@
                          src: '<?php echo $local ?>/js/mobile.min.js',
                          id: 'mobile-0'
                      },
-                     // {
-                     //     src: 'js/siderbar_mobile.min.js',
-                     //     id: 'mobile-1'
-                     // },
+                     {
+                         src: '<?php echo $local ?>/js/carousel.min.js',
+                         id: 'mobile-1'
+                     },
 
                  ];
                  mobileScripts.forEach(({
